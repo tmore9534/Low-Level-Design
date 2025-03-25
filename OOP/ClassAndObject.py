@@ -32,7 +32,14 @@ print(emp1.getFullName())
 # 1. use __copy__(self) to create and return a deep copy of an object
 # 2. use copy module
 #    Shallow Copy: obj2 = copy.copy(obj1)
-#    DeepCopy - obj2 = copy.copy(obj2)
+#    DeepCopy - obj2 = copy.deepcopy(obj2)
+
+# Private constructor - 1. use classmethod to inititalize an object 
+# 2. metaclass to prevent the initilization and implement private constructor
+# Normally, we create objects from classes.
+# Metaclasses define how classes behave (just like classes define how objects behave).
+# create a custom metaclass and define a behaviour
+# https://www.geeksforgeeks.org/metaprogramming-metaclasses-python/
 
 
 

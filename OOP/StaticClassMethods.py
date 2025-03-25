@@ -1,6 +1,7 @@
 # class attiributes - declared outside the init and serves as static variables
 # class methods - declared with "@classmethod" and serves as static methods. (we can call class method with object, but its of no use logically)
-# static methods - u
+# static methods 
+# cls/classname is used to refer the static method/keyword inside a class.
 
 class Employee:
     raise_amount = 1.04 #static or class variable

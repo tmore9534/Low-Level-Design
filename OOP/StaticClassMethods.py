@@ -1,6 +1,6 @@
 # class attiributes - declared outside the init and serves as static variables
 # class methods - declared with "@classmethod" and serves as static methods. (we can call class method with object, but its of no use logically)
-# static methods 
+# static methods - common method encapsulated with class if context matches.
 # cls/classname is used to refer the static method/keyword inside a class.
 
 class Employee:
@@ -23,6 +23,9 @@ class Employee:
 
     def apply_raise(self):
         self.pay = int(self.pay + self.raise_amount)
+    
+    def static_method():
+        print("This is a static method")
 
 # create an object
 emp1 = Employee(101, "Tushar", "More", "100000")

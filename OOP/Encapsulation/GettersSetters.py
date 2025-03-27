@@ -1,8 +1,8 @@
 # Getters (@property) - are used to access the attribute values a a property
 # Setters @attribute.setter - defines the behaviour when the object is trying to set some value.
-# deleters - are used to delete/unset the attributes of the objects (del )
+# Deleters - are used to delete/unset the attributes of the objects (del )
 # it provides backword compatibility - if  objects are using email attribute, if we delete the email attribute and 
-# make it as custom using @property, it doesn't affect that objecct
+# make it as custom using @property, it doesn't affect that object
 
 # getters and setter should provide restriction based on rules.
 

@@ -10,7 +10,8 @@
 - **Factory Methods enable dynamic object creation** for different subclasses.  
 - If creation logic is complex, a **Factory Object may be preferable** (though not a standard pattern).  
 - **Supports polymorphism**, allowing client code to depend on interfaces rather than concrete implementations.  
-- **Simplifies extension** by introducing new factory methods without modifying existing code.  
+- **Simplifies extension** by introducing new factory methods without modifying existing code.
+- Client code becomes simplified.
 
   
 ## Implementation in Python with Example
@@ -24,19 +25,19 @@ Example:
 ![Example Diagram](/design_patterns/resources/images/factory_method_example.png)
 
 
-1. Define the Abstract Product (Interface or Base Class)
+1. Define the Abstract Product (Interface or Base Class) - 
     Create a base class or interface that defines common methods for all product types.
 
-2. Implement Concrete Product Classes
+2. Implement Concrete Product Classes - 
     Create multiple subclasses that extend the base class and provide specific implementations.
 
-3. Create the Abstract Creator Class
+3. Create the Abstract Creator Class - 
     Define a class with an abstract factory method that must be implemented by subclasses.
 
-4. Implement Concrete Creator Classes
+4. Implement Concrete Creator Classes - 
     Implement the abstract factory method in subclasses to return specific product instances.
 
-5. Use the Factory Method in the Client Code
+5. Use the Factory Method in the Client Code - 
     The client interacts only with the abstract creator, which delegates object creation to the concrete subclass
     This class also contains common operations applicable to all product objects.
 

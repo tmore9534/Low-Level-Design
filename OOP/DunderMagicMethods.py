@@ -1,4 +1,4 @@
-# Dunder (Magic) Methods in Python (defined in the object in python)
+# Dunder (Magic) Methods in Python (defined in the object class in python)
 # ✔ Predefined methods with double underscores (__method__) at the beginning and end.
 # ✔ Customize built-in operations like operator overloading, attribute access, and object representation.
 # ✔ Common examples:

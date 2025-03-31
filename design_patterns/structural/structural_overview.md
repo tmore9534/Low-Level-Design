@@ -8,4 +8,5 @@
 
 - Benefit: It decouples the client from the external system, allowing seamless communication without modifying either, ensuring flexibility and maintainability. 
 
-## 
+## Composite:
+- Scenario: 

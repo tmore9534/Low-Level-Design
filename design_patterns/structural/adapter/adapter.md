@@ -1,7 +1,7 @@
 ## Adapter Design Pattern
 - Adapter pattern is used to connect incompatible systems by providing a compatible interface.
 - It acts as a bridge between a client and an third party external system.
-- we should avoid tochange the client to support the webservice, since some other subsytem might be using it.
+- we should avoid to change the client to support the webservice, since some other subsytem might be using it.
 
 ## Use case 
 - Flexibility: Allows integration of third-party libraries by providing interface and without modifying the client 
@@ -29,3 +29,5 @@ Example:
    
 
 - Code: [Facade Pattern](adapter.py)  
+
+## Note: Adapter Object always going to have a 

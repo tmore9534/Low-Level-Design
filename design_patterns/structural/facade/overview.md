@@ -9,6 +9,9 @@
 - To **Reduce coupling** between client classes and subsystem classes by using interfaces.
 - To encapsulates subsystem complexity, achieve clean and maintainable code, ensuring separation of concerns (subsytem and the client).
 
+## Real world Analogy
+When placing a phone order, the operator acts as a facade—offering a simple interface to the shop’s ordering, payment, and delivery systems.
+
 ## Implementation in Python with Example
 
 ![Class Diagram](/design_patterns/resources/images/facadeExample.png)
